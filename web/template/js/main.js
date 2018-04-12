@@ -4,12 +4,11 @@ var arr = ["Alfa Romeo", "Skoda", "Ferrari", "Fiat", "Volkswagen", "Kamaz", "Aud
 updateView();
 
 function removeElement(arrValue) {
-    console.log(arrValue);
+    console.log('Usuwam pozycję z tablicy o wartości "' + arrValue + '"');
     var key = arr.indexOf(arrValue);
-    console.log(key);
-    // Usunąć element o takiej wartości
 }
 
+// Pokazanie wszystkich boxów oraz aktualizacja informacji o tablicy
 function updateView() {
     var arrayElementsDOM = document.getElementById('array-elements');
     // Usunie mi istniejace boxy
