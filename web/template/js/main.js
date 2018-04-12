@@ -3,6 +3,13 @@ var arr = ["Alfa Romeo", "Skoda", "Ferrari", "Fiat", "Volkswagen", "Kamaz", "Aud
 
 updateView();
 
+function removeElement(arrValue) {
+    console.log(arrValue);
+    var key = arr.indexOf(arrValue);
+    console.log(key);
+    // Usunąć element o takiej wartości
+}
+
 function updateView() {
     var arrayElementsDOM = document.getElementById('array-elements');
     // Usunie mi istniejace boxy
@@ -36,6 +43,5 @@ function drawBox(arrValue, index) {
 <h2>' + arrValue + '</h2>\n\
 </div>\n\
 </div>';
-    console.log(html);
     arrayElementsDOM.insertAdjacentHTML('beforeend', html);
 }
