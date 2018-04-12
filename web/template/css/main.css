@@ -39,6 +39,15 @@ body {
     margin-right: 0.5rem;
 }
 
+.box-actions {
+    margin: -0.5rem -0.5rem 0 -0.5rem;
+    text-align: right;
+}
+
+.box-actions .btn > svg  {
+    margin-right: 0;
+}
+
 .col-3:nth-child(6n + 2) .box {
     border-top-color: #f1c40f;
 }
