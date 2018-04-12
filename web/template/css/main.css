@@ -35,8 +35,8 @@ body {
     margin-bottom: 3rem;
 }
 
-.btn > svg  {
-    margin-right: 0.5rem;
+.btn, .btn > svg {
+    margin-right: 0.25rem;
 }
 
 .box-actions {
